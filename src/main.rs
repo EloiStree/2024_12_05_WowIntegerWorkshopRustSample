@@ -16,8 +16,8 @@ fn main(){
     let player: WowIntegerTarget = 
     WowIntegerTarget::new( 
         "192.168.1.37", 
-    7000,
-     1);
+    7073,
+     0);
 
     loop {
         let random_number = rand::thread_rng().gen_range(1100..1104);
