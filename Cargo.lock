@@ -113,9 +113,9 @@ checksum = "9c8d87e72b64a3b4db28d11ce29237c246188f4f51057d65a7eab63b7987e423"
 
 [[package]]
 name = "wowint"
-version = "2024.12.52110"
+version = "2024.12.52300"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "cbed79db810226fbf4e3f98222bbe684d8549e0d28da4219ab382f2bdb45df1a"
+checksum = "558d9210584afe1e2f5d48d5d29acd3d73ea41d7327290c54cf15fa87c2b927f"
 dependencies = [
  "rand",
 ]

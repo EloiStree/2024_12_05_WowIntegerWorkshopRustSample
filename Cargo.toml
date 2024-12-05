@@ -3,6 +3,8 @@ name = "wowint_sample"
 version = "2024.12.52130"
 edition = "2021"
 
+
+
 [dependencies]
-wowint="*"
+wowint ="*"
 rand = "0.8.4"
