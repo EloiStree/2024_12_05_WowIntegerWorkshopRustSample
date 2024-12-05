@@ -10,8 +10,6 @@ use wowint::utility::{
 };
 
 
-
-
 fn main(){
 
     // Create a new WowIntegerPlayer instance with a dummy IP, port, and index
@@ -22,7 +20,7 @@ fn main(){
      1);
 
     loop {
-        let random_number = rand::thread_rng().gen_range(1037..1040);
+        let random_number = rand::thread_rng().gen_range(1100..1104);
         let _ = player.send_integer_to_target(random_number);
         print!("Sent: {}\n", random_number);
         thread::sleep(Duration::from_secs(1));
